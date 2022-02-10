@@ -1,0 +1,25 @@
+{
+  "name": "hoverfly-manager",
+  "version": "1.0.0",
+  "description": "A bot for the hoverfly support server",
+  "main": "bot.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gXLg/hoverfly-manager.git"
+  },
+  "author": "gXLg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gXLg/hoverfly-manager/issues"
+  },
+  "homepage": "https://github.com/gXLg/hoverfly-manager#readme",
+  "dependencies": {
+    "ws": "^8.4.0"
+  }
+}
