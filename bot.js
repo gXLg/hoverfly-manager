@@ -50,7 +50,11 @@
     require_("./collection/ideaReaction")(bot, data);
   }
 
-  // logging in with guild_messages + guild_reactions intent
-  bot.login((1 << 9) + (1 << 10));
+  bot.events["GUILD_MEMBER_ADD"] = async data => {
+    await bot.addUserRole(data.guild_id, data.user.id, "930426100943826987");
+  }
+
+  // logging in with intents: members, messages, reactions
+  bot.login((1 << 1) + (1 << 9) + (1 << 10));
 
 })();
