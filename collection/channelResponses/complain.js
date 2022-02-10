@@ -41,7 +41,7 @@ module.exports = async (bot, message) => {
 
   const text = "**:scroll: " + header + "**\n> " +
                desc.split("\n").join("\n> ") +
-               "\n**:frame_photo: Attachments**\n" +
+               "\n**:frame_photo: Attachments**\n> " +
                links;
 
   embed.description = text;
