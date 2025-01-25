@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/gXLg/hoverfly-manager#readme",
   "dependencies": {
-    "ws": "^8.4.0"
+    "ws": "^8.17.1"
   }
 }
